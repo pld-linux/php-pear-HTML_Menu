@@ -24,7 +24,7 @@ With the %{_pearname} class one can easily create and maintain a
 navigation structure for website, configuring it via a multidimensional
 hash structure. Different modes for the HTML output are supported.
 
-This class has in PEAR status: %{_status}.
+In PEAR status of this package is: %{_status}.
 
 %description -l pl
 Za pomoc± klasy HTML_Menu mo¿liwe jest tworzenie i zarz±dzanie
