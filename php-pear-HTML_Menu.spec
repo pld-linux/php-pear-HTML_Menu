@@ -3,15 +3,16 @@
 %define         _subclass       Menu
 %define		_status		stable
 %define		_pearname	%{_class}_%{_subclass}
+
 Summary:	%{_pearname} - generates HTML Menu from multidimensional hashes
 Summary(pl):	%{_pearname} - generowanie menu w HTML z wielowymiarowych hashy
 Name:		php-pear-%{_pearname}
-Version:	2.0pl1
+Version:	2.1
 Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	f7d80afd5a68d3575cef3cf9dfcfe0fc
+# Source0-md5:	d7c33b653b559e3b1013cddb5b95aafa
 URL:		http://pear.php.net/package/HTML_Menu/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
 Requires:	php-pear
