@@ -1,13 +1,10 @@
-# ToDo:
-# - fix pl summary/description [?]
 %include	/usr/lib/rpm/macros.php
 %define         _class          HTML
 %define         _subclass       Menu
 %define		_status		stable
 %define		_pearname	%{_class}_%{_subclass}
-
 Summary:	%{_pearname} - generates HTML Menu from multidimensional hashes
-Summary(pl):	%{_pearname} - generuje menu HTML z wielowymiarowych hashy
+Summary(pl):	%{_pearname} - generowanie menu w HTML z wielowymiarowych hashy
 Name:		php-pear-%{_pearname}
 Version:	1.0
 Release:	1
@@ -29,9 +26,10 @@ hash structure. Different modes for the HTML output are supported.
 This class has in PEAR status: %{_status}.
 
 %description -l pl
-Za pomoc± %{_pearname} mo¿liwe jest tworzenie i zarz±dzanie struktur±
-nawigacyjn± strony www, konfigurowywaln± za pomoc± wielowymiarowej
-struktury hashowalnej. Wspierane s± ró¿ne sposoby wyj¶cia HTML.
+Za pomoc± klasy HTML_Menu mo¿liwe jest tworzenie i zarz±dzanie
+struktur± nawigacyjn± strony WWW, konfigurowaln± za pomoc±
+wielowymiarowej struktury hashy. Obs³ugiwane s± ró¿ne rodzaje wyj¶cia
+HTML.
 
 Ta klasa ma w PEAR status: %{_status}.
 
