@@ -12,7 +12,7 @@ License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 # Source0-md5:	f7d80afd5a68d3575cef3cf9dfcfe0fc
-URL:		http://pear.php.net/package/%{_pearname}/
+URL:		http://pear.php.net/package/HTML_Menu/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
 Requires:	php-pear
 BuildArch:	noarch
