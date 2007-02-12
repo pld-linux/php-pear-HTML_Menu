@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - generates HTML Menu from multidimensional hashes
-Summary(pl):	%{_pearname} - generowanie menu w HTML z wielowymiarowych hashy
+Summary(pl.UTF-8):   %{_pearname} - generowanie menu w HTML z wielowymiarowych hashy
 Name:		php-pear-%{_pearname}
 Version:	2.1.3
 Release:	1
@@ -31,10 +31,10 @@ hash structure. Different modes for the HTML output are supported.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Za pomoc± klasy HTML_Menu mo¿liwe jest tworzenie i zarz±dzanie
-struktur± nawigacyjn± strony WWW, konfigurowaln± za pomoc±
-wielowymiarowej struktury hashy. Obs³ugiwane s± ró¿ne rodzaje wyj¶cia
+%description -l pl.UTF-8
+Za pomocÄ… klasy HTML_Menu moÅ¼liwe jest tworzenie i zarzÄ…dzanie
+strukturÄ… nawigacyjnÄ… strony WWW, konfigurowalnÄ… za pomocÄ…
+wielowymiarowej struktury hashy. ObsÅ‚ugiwane sÄ… rÃ³Å¼ne rodzaje wyjÅ›cia
 HTML.
 
 Ta klasa ma w PEAR status: %{_status}.
