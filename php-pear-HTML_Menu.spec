@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - generates HTML Menu from multidimensional hashes
-Summary(pl.UTF-8):   %{_pearname} - generowanie menu w HTML z wielowymiarowych hashy
+Summary(pl.UTF-8):	%{_pearname} - generowanie menu w HTML z wielowymiarowych hashy
 Name:		php-pear-%{_pearname}
 Version:	2.1.3
 Release:	1
