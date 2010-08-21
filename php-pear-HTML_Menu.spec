@@ -3,12 +3,11 @@
 %define		_subclass	Menu
 %define		_status		stable
 %define		_pearname	%{_class}_%{_subclass}
-
 Summary:	%{_pearname} - generates HTML Menu from multidimensional hashes
 Summary(pl.UTF-8):	%{_pearname} - generowanie menu w HTML z wielowymiarowych hashy
 Name:		php-pear-%{_pearname}
 Version:	2.1.4
-Release:	2
+Release:	3
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
@@ -18,6 +17,7 @@ BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.300
 Requires:	php-pear
+Suggests:	php-pear-HTML_Template_Sigma
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -26,8 +26,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 With the %{_pearname} class one can easily create and maintain a
-navigation structure for website, configuring it via a multidimensional
-hash structure. Different modes for the HTML output are supported.
+navigation structure for website, configuring it via a
+multidimensional hash structure. Different modes for the HTML output
+are supported.
 
 In PEAR status of this package is: %{_status}.
 
